@@ -1,0 +1,14 @@
+
+package com.examly.springapp.controller;
+
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/ratings")
+public class RatingController {
+
+    @GetMapping
+    public void getRatings() {
+        // No PathVariable needed
+    }
+}
